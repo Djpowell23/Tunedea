@@ -42,7 +42,7 @@ function buildQueryURL() {
 }
 
 var redirectUri = window.location.href;
-if (redirectUri !== "https://djpowell23.github.io/Project-1/") {
+if (redirectUri !== "https://djpowell23.github.io/Tunedea/") {
   redirectUri = redirectUri.substring(0, redirectUri.length - 1); // Used to truncate a trailing / (slash) so the login click handler works correctly
 }
 $('#login-button').on('click', function () {
